@@ -1,0 +1,27 @@
+{
+  "name": "funnyReddit",
+  "version": "1.0.0",
+  "description": "An app that automatically takes you to the top 'funny' posts in Reddit where the user can comment and 'like'.  Possibly share.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burritoscott/funnyReddit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burritoscott/funnyReddit/issues"
+  },
+  "homepage": "https://github.com/burritoscott/funnyReddit#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "mongojs": "^2.6.0",
+    "request": "^2.88.0"
+  }
+}
